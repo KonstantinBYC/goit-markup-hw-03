@@ -54,7 +54,6 @@ a {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 img {
   display: block;
@@ -114,7 +113,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  border: 1px solid black;
 
   display: flex;
   justify-content: flex-end;
