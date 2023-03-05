@@ -100,22 +100,20 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
   color: var(--secondary-title-color);
+}
+address {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: 0 0 0 auto;
 }
 .address-list {
   display: flex;
   padding: 0;
   gap: 40px;
 }
-.address {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin: 0 0 0 auto;
-}
-
 .address-mail {
   color: var(--secondary-title-color);
 }
@@ -375,7 +373,7 @@ img {
 .button-list .button-item:focus {
   color: var(--main-title-color);
   background-color: var(--pressed-state-color);
-  border: var(--pressed-state-color);
+  border-color: var(--pressed-state-color);
 }
 .portfolio-list {
   display: flex;
